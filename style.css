@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1px 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background 0.3s;
+}
+
+header nav ul li a:hover {
+    background: #575757;
+    border-radius: 5px;
+}
+
+section {
+    padding: 20px;
+    margin: 0px 0;
+}
+
+section#home {
+    background: #f4f4f4;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url('Home.jpeg');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+position: relative;
+}
+
+button {
+background-color: #333;
+color: #fff;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+transition: background 0.3s, transform 0.3s;
+border-radius: 5px;
+}
+
+button:hover {
+background-color: #575757;
+transform: scale(1.05);
+}
+
+section#services, section#about, section#contact {
+    background: #fff;
+    border: 0px solid #ddd;
+    border-radius: 5px;
+    height: 100vh;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
